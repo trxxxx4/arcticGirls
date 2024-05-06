@@ -1,0 +1,443 @@
+*{
+    margin: 0px;
+    font-family: 'Noto Serif', serif;
+    scroll-behavior: smooth;
+    
+}
+
+:root{
+    --main__color: #0B1D26;
+    --white__color: azure;
+}
+*::selection{
+    color: rgba(251, 215, 132, 1);
+}
+@media screen and (min-width:475px)  {
+    .header{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        aspect-ratio: 1280/987;
+        background-image: url(https://i.pinimg.com/originals/46/19/fe/4619fe9d53bd79d9b6b4cecc7fe0b463.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        
+    }
+    .header__container{
+        width: 90%;
+        height: 152px;
+        padding-top: 20px;
+        display: flex;
+
+
+    }
+    
+    .slogan__title{
+        transform: translateX(100px);
+        position: relative;
+        color: orange;
+        width: fit-content;
+        font-size: 26px;
+       letter-spacing: 4px;
+       font-family: 'Nunito Sans', sans-serif;
+       text-transform: uppercase;
+       font-weight: 600;
+    }
+    
+.slogan__title::after{
+    height: 2px;
+    width: 72px;
+    position: absolute;
+    top: 50%;
+    background-color: orange;
+    left: -95px;
+    content: '';
+}
+.slogan{
+    width: 90%;
+    
+    transform: translateY(180px);
+}
+.slogan__text{
+    color: var(--white__color);
+    font-size: 64px;
+    font-weight: 400;
+    
+
+}
+.main__title{
+    text-transform: uppercase;
+    font-size: 52px;
+    color: var(--white__color);
+    font-family: 'Nunito Sans', sans-serif;
+}
+    .logo{
+        /*text-transform: uppercase;
+        font-size: 52px;
+        color: var(--white__color);*/
+        
+        height: 100px;
+        width: 200px;
+
+    }
+    .gradient{
+        height: 700px;
+        width: 100%;
+        /*background-image: linear-gradient(0 deg,  rgba(11, 29, 38, 0) 0%,  rgba(11, 29, 38, 1) 100%);*/
+        background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+
+    }
+    .main{
+        
+        width: 100%;
+        background-color: #0B1D26;
+        
+    }
+    .main__container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 50px;
+        overflow-x: hidden;
+        display: flex;
+        transform: translateY(-200px);
+
+    }
+    .main__title{
+        padding-bottom: 100px;
+    }
+    
+    .main__gallery__container{
+        flex-direction: column;
+        display: flex;
+        width: 75%;
+        align-items: center;
+        gap: 100px;
+        
+        padding-bottom: 100px;
+    }
+    #gallery2{
+        flex-direction: row-reverse;
+    }
+    #gallery1{
+        flex-direction: row;
+    }
+    .gallery__text{
+        color: var(--white__color);
+        font-size: 64px;
+        font-weight: 400;
+        
+
+    }
+    .gallery__title{
+        transform: translateX(100px);
+        position: relative;
+        color: orange;
+        width: fit-content;
+        font-size: 26px;
+       letter-spacing: 4px;
+       font-family: 'Nunito Sans', sans-serif;
+       text-transform: uppercase;
+       font-weight: 600;
+    }
+    
+.gallery__title::after{
+    height: 2px;
+    width: 72px;
+    position: absolute;
+    top: 50%;
+    background-color: orange;
+    left: -95px;
+    content: '';
+}
+.gallery__number{
+    font-size: 220px;
+    position: absolute;
+    left: -120px;
+    top: -120px;
+    opacity: 0.1;
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--white__color);
+    pointer-events: none;
+}
+.gallery__text__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    
+}
+.gallery__description{
+    color: var(--white__color);
+    font-family: 'Nunito Sans';
+    font-weight: 300;
+    font-size: 26px;
+}
+.gallery__section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery__img{
+    width: 40%;
+    aspect-ratio: 500/670;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gallery__img2{
+    background-image: url(https://www.nme.com/wp-content/uploads/2016/10/Arcticmonkeys8DC040411.jpg);
+}
+#gallery__img1{
+    background-image: url(https://sun9-21.userapi.com/impf/zqClO-H7avnanytubL7lZXiVkyyeRPW8F6TxRg/2-Spo8TSrkY.jpg?size=690x813&quality=96&sign=12f26bf8a33625b29369837362d3fc40&c_uniq_tag=vMRYeG9K__c7zeWXql7rtUTRV7DtglmqbwKNcuuWUXU&type=album);
+    
+}
+#gallery__img3{
+    background-image: url(https://i.pinimg.com/736x/de/f4/10/def4105570168db9baa6074345be2d22.jpg);
+    
+}
+.song__selector__container{
+    display: flex;
+    width: 85%;
+    overflow: hidden;
+    
+    justify-content: space-between;
+
+}
+.songs__list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 50px;
+}
+
+#album1{
+    background-image: url(https://sun9-51.userapi.com/impg/XSEKQ8AF9664iSUvKI3owzhql8IdP8tCGna7vw/j6b2avA_cOw.jpg?size=463x461&quality=96&sign=56033546881783bf2da41c00067f54aa&type=album);
+    
+}
+.album__image{
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*opacity: 0.7;*/
+    filter: blur(4px);
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: -1;
+    animation: album 300ms linear;
+}
+#album2{
+    background-image: url(https://sun9-28.userapi.com/impg/Xap10Xz36Dy9xb63NLHgH-aQisNH1iX4z60ICA/ezE45yKh5Xc.jpg?size=1425x1425&quality=96&sign=a1d152bdb4ec2065328b509222b56fea&type=album);
+    
+}
+#album4{
+    background-image: url(https://sun9-16.userapi.com/impg/oeU6kX06tHFmIYRYWF771Tz_uaJDYfRfi9lqug/uCw6iYWhshc.jpg?size=770x770&quality=96&sign=4fbb69489aeb40325512b82b3668d887&type=album);
+}
+#album5{
+    background-image: url(https://sun9-66.userapi.com/impg/mDdjxDAx23BTDQM43reXaerq-Y-836IQHCZ44w/rjRp9hc3_H4.jpg?size=770x770&quality=96&sign=71703d20d334181ce671ec48587730b5&type=album);
+}
+.song__a{
+    text-decoration: none;
+    color: var(--white__color);
+    font-size: 36px;
+    
+    font-family: 'Nunito Sans';
+    cursor: pointer;
+    position: relative;
+    transition: 300ms linear;
+    
+}
+
+
+.song__a:hover{
+    transform: translateX(30px);
+    text-shadow: 0px 0px 10px orange;
+}
+
+
+
+.song__section{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    aspect-ratio: 1/1;
+    width: 40%;
+    overflow: hidden;
+    align-items: center;   
+    animation: startsection 700ms linear; 
+    
+}
+@keyframes startsection {
+    0%{
+        
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+#removing{
+    opacity: 0;
+    transform: translateX(100px);
+    animation: removing 300ms linear;
+}
+@keyframes removing {
+    0%{
+        transform: translateX(0px);
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+}
+.audio{
+    width: 90%;
+    transform: translateY(-20px);
+    filter: invert(100%);
+    opacity: 0.7;
+    animation: audio 300ms linear;
+    
+}
+.song__name{
+    font-size: 60px;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    font-family: 'Anton', sans-serif;
+    font-weight: 800;
+    opacity: 0.8;
+    color: var(--main__color);
+    
+    text-shadow: 1px 0px 1px white,
+    0px 1px 1px white,
+    -1px 0px 1px white,
+    0px -1px 1px white
+    /*0px 0px 10px white,
+    0px 0px 60px white,
+    0px 0px 20px white*/
+    ;
+    animation: song__name 300ms linear;
+}
+@keyframes song__name {
+    0%{
+        transform: translateX(-20px);
+        opacity: 0;
+        
+        
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 0.8;
+        scale: 1;
+    }
+    
+}
+@keyframes audio {
+    0%{
+        transform: translateY(30px);
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translateY(-20px);
+        opacity: 0.8;
+    }
+}
+@keyframes album {
+    0%{
+        transform: translateX(-30px);
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.song__selector__section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--main__color);
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0px 0px 50px 0px;
+
+}
+#invert{
+    filter: invert(100%);
+}
+.footer__logo{
+    width: 40%;
+}
+.footer__links{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer__ul{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    padding-left: 0px;
+}
+.default__link{
+    text-decoration: none;
+    color: var(--white__color);
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+font-weight: 500;
+transition: 300ms linear;
+
+}
+.default__link:hover{
+    color: orange;
+}
+.marked__link{
+    text-decoration: none;
+    color: orange;
+    font-family: 'Nunito Sans';
+    font-size: 24px;
+    font-weight: 700;
+    transition: 300ms linear;
+
+}
+
+.marked__link:hover{
+    
+    
+    transform: translateY(-5px);
+}
+
+}
