@@ -1,13 +1,31 @@
-const sr = ScrollReveal({
-    duration: 1250, reset: true
-});
-sr.reveal('.slogan__text', { opacity: 0 , origin: 'bottom', distance: "100px", reset: false });
-sr.reveal('.slogan__title', {  origin: 'left', distance: "400px", reset: false });
-sr.reveal('#gallery1', {origin: 'right', distance: '400px', reset: true});
-sr.reveal('#gallery2', {origin: 'left', distance: '400px', reset: true});
-sr.reveal('.song__selector__container', {
-    opacity: 0, reset: false
-})
+
+if (window.screen.width >= 475){
+    const sr = ScrollReveal({
+        duration: 1250, reset: true
+    });
+    sr.reveal('.slogan__text', { opacity: 0 , origin: 'bottom', distance: "100px", reset: false });
+    sr.reveal('.slogan__title', {  origin: 'left', distance: "400px", reset: false });
+    sr.reveal('#gallery1', {origin: 'right', distance: '400px', reset: true});
+    sr.reveal('#gallery2', {origin: 'left', distance: '400px', reset: true});
+    sr.reveal('.song__selector__container', {
+        opacity: 0, reset: false
+    })
+    
+}
+
+if (window.screen.width <= 475){
+    const sr = ScrollReveal({
+        duration: 1250, reset: true
+    });
+    sr.reveal('.slogan__text', { opacity: 0 , origin: 'bottom', distance: "100px", reset: false });
+    sr.reveal('.slogan__title', {  origin: 'left', distance: "400px", reset: false });
+    sr.reveal('#gallery1', {origin: 'right', distance: '400px', reset: true});
+    sr.reveal('#gallery2', {origin: 'left', distance: '400px', reset: true});
+    sr.reveal('.song__selector__container', {
+        opacity: 0, reset: false
+    })
+    
+}
 
 
 
