@@ -180,11 +180,11 @@ BlackTreacle.addEventListener('click', function(){
     
 });
 
-
+/*
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 ScrollSmoother.create({
     wrapper: 'html',
     content: '.body',
     smooth: 1.5,
     effects: true,
-})
+})*/
