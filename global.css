@@ -490,6 +490,9 @@
 
         transform: translateY(-5px);
     }
+    #ep__brainshtorm{
+        background-image: url(https://sun9-12.userapi.com/impg/3PxO58FWvfjx0vRlkXfn0uhbZGQK60KGy55_hA/UFxJbxY4NJg.jpg?size=707x710&quality=96&sign=5bb957e91f37dd8f5c7b0ff67f7e32bc&type=album);
+    }
 
 }
 
@@ -769,7 +772,9 @@ gap: 40px;
     #album5 {
         background-image: url(https://sun9-66.userapi.com/impg/mDdjxDAx23BTDQM43reXaerq-Y-836IQHCZ44w/rjRp9hc3_H4.jpg?size=770x770&quality=96&sign=71703d20d334181ce671ec48587730b5&type=album);
     }
-
+#ep__brainshtorm{
+    background-image: url(https://sun9-12.userapi.com/impg/3PxO58FWvfjx0vRlkXfn0uhbZGQK60KGy55_hA/UFxJbxY4NJg.jpg?size=707x710&quality=96&sign=5bb957e91f37dd8f5c7b0ff67f7e32bc&type=album);
+}
     .song__a {
         text-decoration: none;
         color: var(--white__color);

@@ -8,9 +8,63 @@ const FluorescentAdolescent = document.querySelector('#FluorescentAdolescent');
 const ThisHouseisaCircus = document.querySelector('#ThisHouseisaCircus');
 const DoIWannaKnow = document.querySelector('#DoIWannaKnow');
 const BlackTreacle = document.querySelector('#BlackTreacle');
+const TemptationGreetsYouLikeYourNaughtyFriend = document.querySelector('#TemptationGreetsYouLikeYourNaughtyFriend');
+const OnlyOnesWhoKnow = document.querySelector('#OnlyOnesWhoKnow');
+
+OnlyOnesWhoKnow.addEventListener('click', function(){
+    if (songName.innerText != 'Only Ones Who Know'){
+        console.log('zxc');
+        audio.id = 'removing';
+        songName.id = 'removing';
+        album.id = 'removing';
+        songName.innerHTML = '';
+        
+        setTimeout(()=>{
+            
+            songName.removeAttribute('id');
+            songName.removeAttribute('class');
+            songName.innerHTML = 'Only Ones Who Know';
+            songName.classList.add('song__name');
+            audio.removeAttribute('src');
+            album.removeAttribute('id');
+            album.id = 'album2';
+            audio.removeAttribute('id');
+            audio.src = './Arctic_Monkeys_-_Only_Ones_Who_Know_59891379.mp3'
+            audio.classList.add('audio')
+        }, 300)
+    
+             
+    }
+    
+});
 
 
-
+TemptationGreetsYouLikeYourNaughtyFriend.addEventListener('click', function(){
+    if (songName.innerText != 'Temptation Greets You Like Your Naughty Friend'){
+        console.log('zxc');
+        audio.id = 'removing';
+        songName.id = 'removing';
+        album.id = 'removing';
+        songName.innerHTML = '';
+        
+        setTimeout(()=>{
+            
+            songName.removeAttribute('id');
+            songName.removeAttribute('class');
+            songName.innerHTML = 'Temptation Greets You Like Your Naughty Friend';
+            songName.classList.add('song__name');
+            audio.removeAttribute('src');
+            album.removeAttribute('id');
+            album.id = 'ep__brainshtorm';
+            audio.removeAttribute('id');
+            audio.src = './Arctic_Monkeys_-_Temptation_Greets_You_Like_Your_Naughty_Friend_70629276.mp3'
+            audio.classList.add('audio')
+        }, 300)
+    
+             
+    }
+    
+});
 
 
 
